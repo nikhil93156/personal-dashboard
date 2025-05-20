@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Personal Dashboard
+
+A modern, responsive personal dashboard built with [Next.js](https://nextjs.org) and [Tailwind CSS](https://tailwindcss.com).  
+Showcase your profile, education, skills, projects, trainings, and extracurricular activities in a clean, card-based UI.
+
+## Features
+
+- **Responsive Design:** Looks great on desktop and mobile.
+- **Dark/Light Mode:** Seamless color transitions for all sections.
+- **Sticky Navigation:** Fixed top navbar with mobile sidebar menu.
+- **Profile Card:** Displays your photo, bio, and contact info.
+- **Education Timeline:** Vertical timeline of your academic journey.
+- **Skills Section:** Card-based technical skills with icons.
+- **Projects Section:** Highlight your projects with details and implementation.
+- **Trainings Section:** List of trainings and certifications.
+- **Extracurricular Section:** Showcase your activities and volunteering.
+- **Download Resume:** Button to download your resume PDF.
 
 ## Getting Started
 
-First, run the development server:
+1. **Install dependencies:**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. **Run the development server:**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. **Open your browser:**  
+   Visit [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `src/app/components/` — All UI components (ProfileCard, EducationTimeline, etc.)
+- `src/app/data/resumeData.js` — Your profile, education, skills, projects, trainings, and extracurricular data.
+- `public/nikhil_image.jpeg` — Your profile image (place your image here).
+- `public/resume.pdf` — Your resume file for download.
+- `src/app/page.js` — Main page layout and section composition.
+- `src/app/globals.css` — Global styles (Tailwind CSS).
 
-## Learn More
+## Customization
 
-To learn more about Next.js, take a look at the following resources:
+- **Update your data:**  
+  Edit `src/app/data/resumeData.js` with your own information.
+- **Profile Image:**  
+  Replace `public/nikhil_image.jpeg` with your own image.
+- **Resume:**  
+  Place your PDF resume as `public/resume.pdf`.
+- **Skills/Projects:**  
+  Add or remove items in the `skills` and `projects` arrays.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Dependencies
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [Next.js](https://nextjs.org)
+- [Tailwind CSS](https://tailwindcss.com)
+- [lucide-react](https://lucide.dev/icons/) (for icons)
 
-## Deploy on Vercel
+## Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Deploy easily on [Vercel](https://vercel.com/) or any platform supporting Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+
+This project is for personal use and portfolio demonstration.
+
+---
+
+**Made with ❤️ using Next.js and Tailwind CSS**
