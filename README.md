@@ -6,7 +6,6 @@ Showcase your profile, education, skills, projects, trainings, and extracurricul
 ## Features
 
 - **Responsive Design:** Looks great on desktop and mobile.
-- **Dark/Light Mode:** Seamless color transitions for all sections.
 - **Sticky Navigation:** Fixed top navbar with mobile sidebar menu.
 - **Profile Card:** Displays your photo, bio, and contact info.
 - **Education Timeline:** Vertical timeline of your academic journey.
