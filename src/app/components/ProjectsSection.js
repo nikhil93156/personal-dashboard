@@ -1,13 +1,13 @@
 export default function ProjectsSection({ projects }) {
   return (
-    <section id="projects" className="bg-slate-900 text-slate-100 py-12">
+    <section id="projects" className="bg-slate-900 text-slate-100 py-12 ">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-10 text-center">📁 Projects</h2>
         <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2">
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-slate-800 border border-slate-700 p-6 rounded-2xl shadow hover:shadow-lg transition duration-300"
+              className="bg-slate-800 border border-slate-700 p-6 rounded-2xl shadow-md hover:shadow-lg transition duration-300"
             >
               <div className="flex justify-between items-start mb-3">
                 <h3 className="text-xl font-semibold">{project.title}</h3>

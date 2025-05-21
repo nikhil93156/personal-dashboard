@@ -8,7 +8,7 @@ export default function EducationTimeline({ education }) {
       <div className="space-y-10 relative">
 
         {/* Vertical Timeline Line */}
-        <div className="absolute left-4 top-0 h-full w-1 bg-blue-500 rounded-full"></div>
+        <div className="absolute left-2 top-0 h-full w-1 bg-blue-500 rounded-full"></div>
 
         {education.map((edu, index) => (
           <div key={index} className="relative pl-12">

@@ -50,12 +50,20 @@ export const resumeData = {
       implementation: "Using react on Visual studio code."
     },
     {
-      title: "Your Project Title Here",
-      date: "Month Year",
-      type: "Project Type (e.g., Academic, Personal, Team, etc.)",
-      domain: "Project Domain (e.g., Backend, Full Stack, etc.)",
-      description: "Short description of your project, what it does, and its purpose.",
-      implementation: "Technologies and tools used for implementation."
+      title: "Offlin Music Player",
+      date: "May 2024",
+      type: "Major Project",
+      domain: "Android Application",
+      description: "Offline music player application that allows users to play their favorite songs without an internet connection.",
+      implementation: "Using the Kotlin and Xml on android studio."
+    },
+    {
+      title:"Personal Portfolio Dashboard",
+      date: "May 2025",
+      type: "Personal Level Project",
+      domain: "Frontend",
+      description: "A personal portfolio dashboard that showcases my skills, projects, and achievements.",
+      implementation: "Using React.js and Tailwind CSS."
     }
     // Add other projects
   ],
